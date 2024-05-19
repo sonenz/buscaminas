@@ -1,0 +1,37 @@
+#grid-cont {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+
+}
+
+.easy {
+    grid-template-columns: repeat(8,50px);
+    grid-template-rows: repeat(8,50px);
+}
+
+.medium {
+    grid-template-columns: repeat(16,50px);
+    grid-template-rows: repeat(16,50px);
+}
+
+.hard {
+    grid-template-columns: repeat(30,50px);
+    grid-template-rows: repeat(16,50px);
+}
+
+li {
+    list-style: none;
+}
+
+.modal {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    width: 100%;
+    height: 100%;
+}
